@@ -6,7 +6,7 @@ import os
 
 st.set_page_config(
     page_icon="🌉", 
-    layout="wide", 
+    layout="centered", 
     page_title="Epub translator"
 )
 
