@@ -1,6 +1,6 @@
 # EPUB Translator with Streamlit Interface
 
-## A translator for EPUB files with a Streamlit interface that skips translating programming code and preserves the original code in programming languages.
+### A translator for EPUB files with a Streamlit interface that skips translating programming code and preserves the original code.
 
 ### Program Description
 
@@ -15,25 +15,28 @@ This program is based on the epub-translator library by quantrancse (https://git
 ![epubTranslator](./images/epubTranslator.png "screenshot")
 
 ### Example of implementation on streamlit: [epub-translator.streamlit.app](https://epub-translator.streamlit.app/ "epub/translator.streamlit.app")
-
-Installation Instructions
+---
+### Installation Instructions
 
 Install Python 3.10 or later
 
-
 Install venv:
+
 ``python -m venv venv``
 
 
 Activate virtual environment:
+
 ``source venv/bin/activate``
 
 
 Clone this repository using the command:
+
 ``git clone https://github.com/your-nickname/epub-translator-streamlit.git ``
 
 
 Install the required libraries using the command:
+
 ``pip install -r requirements.txt``
 
 Go to the program directory and run it using the command:
@@ -42,12 +45,16 @@ Go to the program directory and run it using the command:
 streamlit run main.py
 ```
 
+---
+
 ### Using the Program
 
-    Run the program using the command streamlit run main.py
-    Select the EPUB file you want to translate
-    Select the target language
-    Click the "Translate" button
+Run the program using the command streamlit run main.py
+Select the EPUB file you want to translate
+Select the target language
+Click the "Translate" button
+
+---
 
 ### License
 
