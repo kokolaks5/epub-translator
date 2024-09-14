@@ -4,7 +4,11 @@ from epubtranslator import LANGUAGES, TranslatorEngine
 import tempfile
 import os
 
-
+st.set_page_config(
+    page_icon="🌉", 
+    layout="wide", 
+    page_title="Epub translator"
+)
 
 def main():
     st.markdown("[![100pa.com](https://www.100pa.com/images/logo.png)](https://100pa.com/)")

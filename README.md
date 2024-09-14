@@ -14,17 +14,19 @@ This program is based on the epub-translator library by quantrancse (https://git
 
 ![epubTranslator](./images/epubTranslator.png "screenshot")
 
+### Example of implementation on streamlit: [epub-translator.streamlit.app](https://epub-translator.streamlit.app/ "epub/translator.streamlit.app") 
+
 Installation Instructions
 
 Install Python 3.10 or later
 Install venv:
-```	python -m venv venv     ```
+```python -m venv venv```
 Activate virtual environment:
-``` source venv/bin/activate    ```
+```source venv/bin/activate```
 Clone this repository using the command:
-``` git clone https://github.com/your-nickname/epub-translator-streamlit.git    ```
+```git clone https://github.com/your-nickname/epub-translator-streamlit.git ```
 Install the required libraries using the command:
-``` pip install -r requirements.txt    ```
+```pip install -r requirements.txt```
 
 Go to the program directory and run it using the command:
 
